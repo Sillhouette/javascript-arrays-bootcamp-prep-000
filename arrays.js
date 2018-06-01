@@ -14,14 +14,17 @@
   * with the new element appended to the beginning of it
   **/
   function destructivelyAddElementToBeginningOfArray(array, element){
-    array.unshift(element);
-    return array;
+    return array.unshift(element);
+    //return array;
   }
 
+<<<<<<< HEAD
   /**
   * addElementToEndOfArray takes in an array and an element and returns a new array with the element appended
   * to the end of the original array
   **/
+=======
+>>>>>>> dd2002dcd20acb9757edbd4965b3d7053689b7de
   function addElementToEndOfArray(array, element){
     return [...array, element];
   }
